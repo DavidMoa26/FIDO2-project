@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # WebAuthn FIDO2 Project
 
 This is a full-stack implementation of passwordless authentication using the FIDO2 standard (WebAuthn + CTAP). It demonstrates secure user registration and login using platform authenticators like Windows Hello.
@@ -7,7 +6,7 @@ This is a full-stack implementation of passwordless authentication using the FID
 
 ## 📁 Project Structure
 
-- `frontend/` – React app (Vite) with WebAuthn client-side logic  
+- `frontend/` – React app (Vite) with WebAuthn client-side logic
 - `backend/` – Node.js server using Express and `@simplewebauthn/server`
 
 ---
@@ -69,38 +68,3 @@ npx vitest
 ```
 
 ---
-
-## 📚 Features
-
-- FIDO2 registration and authentication flow  
-- Platform authenticator support (e.g., Windows Hello)  
-- Signature validation on server  
-- Client-side parsing of:
-  - `clientDataJSON`
-  - Authenticator data flags  
-- Secure challenge-based verification  
-
----
-
-## ⚠️ Notes
-
-- Only one frontend test exists (client-side WebAuthn data validation)  
-- No backend tests included  
-- Server and frontend must be run in parallel  
-
----
-
-## 🛡️ Security Notes
-
-- Private keys are never transmitted  
-- Server validates challenge-response using public key  
-- Same-origin enforcement and anti-replay protections are applied  
-
----
-
-## 📄 License
-
-MIT License
-=======
-
->>>>>>> 31c9447305bc993e9009b27bcc0f18e6d1199959
