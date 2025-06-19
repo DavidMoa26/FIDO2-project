@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # WebAuthn FIDO2 Project
 
 This is a full-stack implementation of passwordless authentication using the FIDO2 standard (WebAuthn + CTAP). It demonstrates secure user registration and login using platform authenticators like Windows Hello.
@@ -100,3 +101,6 @@ npx vitest
 ## 📄 License
 
 MIT License
+=======
+
+>>>>>>> 31c9447305bc993e9009b27bcc0f18e6d1199959
