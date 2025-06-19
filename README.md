@@ -17,7 +17,7 @@ This is a full-stack implementation of passwordless authentication using the FID
 
 ```bash
 git clone https://github.com/DavidMoa26/FIDO2-project.git
-cd webauthn-fido
+cd FIDO2-project
 ```
 
 ### 2. Install dependencies
